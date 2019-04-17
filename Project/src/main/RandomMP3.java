@@ -291,9 +291,18 @@ public class RandomMP3 extends JFrame {
 				
 				// 문제없나 검사
 				if(false == canRun){
-					JOptionPane.showMessageDialog(contentPane, "파일 복사를 진행 할 수 없습니다."
-							+ "\n 빈 곳이 있나 확인해주십시오.", "Message",
-							JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(
+            contentPane, 
+            "파일 복사를 진행 할 수 없습니다." + "\n 빈 곳이 있나 확인해주십시오.", 
+            "Message",
+            JOptionPane.ERROR_MESSAGE);
+          
+          // 다시 enable 시키기
+					btnSource.setEnabled(true);
+					btnDestination.setEnabled(true);
+					btnRunList.setEnabled(true);
+					btnRunCopy.setEnabled(true);
+					txtSize.setEnabled(true);
 					return;
 				}
 				
