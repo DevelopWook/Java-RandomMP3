@@ -298,7 +298,6 @@ public class RandomMP3 extends JFrame {
 				}
 				
 				
-				
 				new Thread(new Runnable() {
 					
 					@Override
