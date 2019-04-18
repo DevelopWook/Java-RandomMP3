@@ -255,10 +255,12 @@ public class RandomMP3 extends JFrame {
 				
 				//
 				{
-					JOptionPane.showMessageDialog(contentPane, "입력한 Size : " + (maxSize/1024/1024)
-							+ "\n선택된 Size " + (nowSize/1024/1024)
-							+ "\n선택된 노래 갯수 : " + cnt, "Message",
-							JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(
+						contentPane, 
+						"입력한 Size : " + (maxSize/1024/1024) + "MB\n선택된 Size : " + (nowSize/1024/1024) + "MB\n선택된 노래 갯수 : " + cnt + "개", 
+						"Message",
+						JOptionPane.INFORMATION_MESSAGE
+					);
 				}
 				//
 				strFileList = new String[cnt];
