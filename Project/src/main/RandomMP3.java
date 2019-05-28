@@ -29,7 +29,7 @@ public class RandomMP3 extends JFrame {
 	private JTextField txtSource;
 	private JTextField txtDestination;
 	private JTextField txtSize;
-	
+
 	private JFileChooser srcFileChooser; // src 파일 선택창
 	private JFileChooser desFileChooser; // des 파일 선택 창
 	private int mSize; // 복사 될 size
