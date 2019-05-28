@@ -42,8 +42,10 @@
 ## 세부내용
 
 ### 프로그램 화면
+![program_screen](./etc/program_screen.jpg)
 
 ### 폴더 선택
+![select_folder](./etc/select_folder.jpg)
 
 ### Demo
 
