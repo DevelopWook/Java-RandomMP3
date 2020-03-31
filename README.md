@@ -42,10 +42,10 @@
 ## 세부내용
 
 ### 프로그램 화면
-![program_screen](./etc/program_screen.jpg)
+![program_screen](./etc/program_screen.JPG)
 
 ### 폴더 선택
-![select_folder](./etc/select_folder.jpg)
+![select_folder](./etc/select_folder.JPG)
 
 ### Demo
 
